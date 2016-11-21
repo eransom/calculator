@@ -1,0 +1,132 @@
+h1 {
+  text-align: center;
+  font-family: 'Quicksand', sans-serif;
+  border-bottom: 1px solid;
+  color: aliceblue;
+}
+
+body {
+  background-image: url(https://s-media-cache-ak0.pinimg.com/originals/e6/3b/6c/e63b6cd426ac5de7dfc8dcbdaf0f6961.jpg);
+  background-size: cover;
+}
+
+#calculator {
+  display: inline-block;
+  background-image: url(http://www.decotonesurfaces.com/images/Products/FM460.jpg);
+  width: 123px;
+  border: 1px solid;
+  border-top: 1px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  padding: 2em;
+  margin-left: 20em;
+}
+
+
+.output {
+  text-align: center;
+  width: 187px;
+  padding-top: 28px;
+  margin-top: 6em;
+  margin-left: 20em;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  background-image: url(https://s-media-cache-ak0.pinimg.com/originals/d5/0a/80/d50a8006894b7f231877ebcd583c377c.jpg);
+  border: 1px solid;
+}
+
+#hide {
+  margin-bottom: -27px;
+  /*visibility:hidden;*/
+}
+
+button {
+  margin: 2px;
+}
+
+.rowOne {
+  display: flex;
+  flex-direction: row;
+  margin: 5px;
+}
+
+.rowOne button {
+  text-align: center;
+  width: 23px;
+  height: 23px;
+}
+
+.rowOne button:nth-child(2) {
+  padding-left: 2px;
+}
+
+.rowOne button:nth-child(4) {
+  background-color: orange;
+}
+
+.rowTwo {
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  margin: 5px;
+}
+
+.rowTwo button {
+  width: 23px;
+  height: 23px;
+}
+
+.rowTwo button:nth-child(4) {
+  text-align: center;
+  background-color: orange;
+}
+
+.rowThree {
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  margin: 5px;
+}
+
+.rowThree button {
+  width: 23px;
+  height: 23px;
+}
+
+.rowThree button:nth-child(4) {
+  background-color: orange;
+}
+
+.rowFour {
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  margin: 5px;
+}
+
+.rowFour button {
+  width: 23px;
+  height: 23px;
+}
+
+.rowFour button:nth-child(4) {
+  background-color: orange;
+}
+
+.rowFive {
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  margin: 5px;
+}
+
+
+
+.rowFive button:nth-child(2) {
+  width: 40px;
+  margin-left: 15px;
+}
+
+.rowFive button:nth-child(1) {
+  width: 4em;
+}
